@@ -1,0 +1,214 @@
+body{
+}
+img { pointer-events: none;
+}
+.background{
+
+}
+
+#left{
+  background-image: url(img/background.png);
+  position: fixed;
+  height: 100%;
+  width: 12%;
+  left: 0;
+  bottom: 0;
+
+}
+#right{
+  background-image: url(img/background.png);
+  position: fixed;
+  height: 100%;
+    width: 12%;
+  right: 0;
+  bottom: 0;
+
+}
+
+.all{
+  margin: auto;
+  position: absolute;
+  width: 76%;
+  height: 700px;
+  top: 0px;
+  left: 0;
+  right: 0;
+
+}
+.left{
+  background-image: url(img/hz2.png);
+  background-position: bottom;
+  background-repeat: repeat-x;
+
+  position: fixed;
+  border-right: 4px solid black;
+  width: 120px;
+  height: 100%;
+}
+.head{
+  z-index:2;
+  background: url(img/hz.png) ;
+  background-repeat: repeat-x;
+  background-color: white;
+  border-bottom: 4px solid black;
+  top:0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  border-radius: 0 0 60px 0px;
+
+
+
+}
+ #logo {
+
+  border-right: 4px solid black;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin-left: 12%;
+  }
+ #menu {
+  border-left: 10px solid transparent;
+  border-right:10px solid transparent;
+  position: relative;
+  margin-top: -136px;
+  margin-left: 12%;
+  height: 120px;
+  width: 88%;
+  font-size: 19px;
+
+}
+  #menu ul{
+
+  margin-top: 16px;
+  margin-left: 79px;
+}
+  #menu li{
+  border-right: 4px solid black;
+  border-left: 4px solid black;
+  text-align: center;
+  margin-left:-1px;
+  display: inline-block;
+  width: 14%;
+}
+  #menu a{
+  color: white;
+  display: block;
+text-decoration: none;
+padding-top: 102px;
+
+
+}
+  #menu p{
+  background-color: black;
+  margin: 0;
+  margin-left: -1px;
+  padding: 0;
+}
+  #menu li:hover{
+  background-color: black
+}
+   #a{
+  background: url(img/home.png) no-repeat;
+
+  background-position: center top;
+}
+   #a:hover{
+  background: url(img/home2.png) no-repeat;
+  background-position: center top;
+
+}
+   #b{
+  background: url(img/block.png) no-repeat;
+  background-color: rgb(135,206,235,0.4);
+  background-position: center top;
+}
+   #b:hover{
+  background: url(img/block2.png) no-repeat;
+  background-position: center top;
+
+}
+   #c{
+  background: url(img/info.png) no-repeat;
+  background-position: center top;
+}
+   #c:hover{
+  background: url(img/info2.png) no-repeat;
+  background-position: center top;}
+   #d{
+    background: url(img/cont.png) no-repeat;
+    background-position: center top;
+  }
+   #d:hover{
+    background: url(img/cont2.png) no-repeat;
+    background-position: center top;}
+
+
+
+
+
+
+
+
+
+
+.content{
+margin-top: 85px;
+  margin-left: 120px;
+  background-color: #9b9d9e;
+  height: 700px;
+
+
+}
+
+#text p{
+  text-align: justify;
+  font-family: sans-serif;
+  margin: auto;
+  margin-left: 60px;
+  margin-right: 30px;
+  font-size: 26px;
+}
+#zaglavie  h1{
+  color: black;
+  margin-left: 20px;
+font-size: 50px;
+}
+#zaglavie hr{
+  border-bottom: 3px solid black;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+#zaglavie{
+  margin-bottom: -10px;
+background: rgba(255,255, 255, 0.5);
+border-radius:40px 40px 0px 0px;
+background-image: url(img/zamok.png) ;
+background-repeat:  no-repeat;
+background-position: center top;
+}
+#text{
+  position: relative;
+  height: 300px;
+  border-radius:0px 0px 40px 40px;
+background-color: rgba(255,255, 255, 0.5);
+background-image: url(img/zamok2.png) ;
+background-repeat:  no-repeat;
+background-position: center top;
+
+}
+#pass{
+  margin-left: 200px;
+}
+#text h3{
+  margin-left: 200px;
+  margin-top: 60px;
+
+}
+#secret{
+  position: absolute;
+  bottom: -100px;
+  left: 5px;
+  color: #9b9d9e;
+}
