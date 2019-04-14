@@ -205,8 +205,8 @@ background-position: center top;
 }
 #text h3{
   margin-left: 200px;
-  margin-top: 60px;
-
+  margin-top: 70px;
+  margin-bottom: 5px;
 }
 #secret{
   position: absolute;
