@@ -87,12 +87,13 @@ z-index: 3;
   margin-left: 79px;
 }
   #menu li{
+    white-space: nowrap;
   border-right: 4px solid black;
   border-left: 4px solid black;
   text-align: center;
   margin-left:-1px;
   display: inline-block;
-  width: 150px;
+  width: 14%;
 }
   #menu a{
   color: white;
@@ -113,7 +114,6 @@ padding-top: 102px;
 }
    #a{
   background: url(img/home.png) no-repeat;
-
   background-position: center top;
 }
    #a:hover{
@@ -201,12 +201,14 @@ background-position: center top;
 
 }
 #pass{
-  margin-left: 200px;
+  margin-left: 20%;
+
 }
 #text h3{
-  margin-left: 200px;
+  margin-left: 20%;
   margin-top: 70px;
   margin-bottom: 5px;
+
 }
 #secret{
   position: absolute;
