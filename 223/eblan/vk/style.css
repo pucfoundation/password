@@ -1,18 +1,21 @@
 body{
-  background-image: url(img/pog.jpg);
-  background-size: contain;
+  background-image: url(img/background.png);
+  background-size: cover;
 }
 .all{
   text-align: center;
 }
 .code{
-  background-color: white;
-  width: 30%;
-  font-size: 30px;
-  margin: auto;
-  margin-top: 20%;
-  color: black;
-  border-radius: 10px;
-  opacity: 0.9;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  border-color: white;
+  border-radius: 30px;
+  width: 600px;
+
+
+}
+#id{
+  position: relative;
 
 }
