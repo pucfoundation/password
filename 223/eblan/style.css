@@ -1,0 +1,22 @@
+body{
+  background-image: url(img/ukrain.png);
+  background-size: cover;
+}
+.all{
+  text-align: center;
+}
+.code{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  border: 200px;
+  border-color: white;
+  border-radius: 30px;
+  width: 600px;
+  height: 600px;
+}
+#id{
+position: fixed;
+
+
+}

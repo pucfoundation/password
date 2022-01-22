@@ -1,0 +1,21 @@
+body{
+  background-image: url(img/caesar.jpg);
+  background-size: cover;
+}
+.all{
+  text-align: center;
+}
+.code{
+  background-color: white;
+  width: 30%;
+  font-size: 50px;
+  margin: auto;
+  margin-top: 20%;
+  color: white;
+  border-radius: 10px;
+
+}
+#id{
+  position: relative;
+
+}
