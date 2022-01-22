@@ -1,0 +1,18 @@
+body{
+  background-image: url(img/pog.jpg);
+  background-size: contain;
+}
+.all{
+  text-align: center;
+}
+.code{
+  background-color: white;
+  width: 30%;
+  font-size: 30px;
+  margin: auto;
+  margin-top: 20%;
+  color: black;
+  border-radius: 10px;
+  opacity: 0.9;
+
+}
