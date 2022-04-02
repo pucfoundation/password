@@ -1,6 +1,6 @@
 body{
-  background: url(img/flag.jpg);
-
+  background: url(img/arab.jpg);
+  background-size: cover;
 }
 
 input{
@@ -17,9 +17,10 @@ input{
   position: static;
 }
 #cat{
-  border: 10px solid rgb(0,0,0,0.9);
+  background: rgb(255,255,255,0.9);
+  border: 10px solid rgb(255,255,255,0.9);
   border-radius: 60px;
-  height: 300px;
+  height: 200px;
 
 }
 .panel{
@@ -27,20 +28,20 @@ input{
   font-size: 40px;
 }
 #question{
-  color: white;
+  color: black;
 margin-left: auto;
 margin-right: auto;
 border-radius: 30px;
 margin-bottom: 0px;
 width: 600px;
-background-color: rgb(0,0,0,0.9);
+background-color: rgb(255,255,255,0.9);
 }
 #pass{
-font-size: 28px;
-text-align: left;
+font-size: 0px;
 margin-left: auto;
 margin-right: auto;
-width: 600px;
-
+width: 500px;
+margin-top:0;
+background: rgb(255,255,255,0.9);
 border-radius: 0 0 30px 30px;
 }
