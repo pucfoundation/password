@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Р/И/С/Foundation</title>
+    <link rel="shortcut icon" href="img/puc-min.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script language="JavaScript">
+              var ps
+          function check() {
+
+              ps=document.getElementById("check").value;
+          if (ps=="Bingus" || ps=="bingus" || ps=="Бингус" || ps=="бингус") window.location = "math/main.html";
+          else alert("Обкакаться на первом же вопросе... как так... \nСлева от кнопки нужно ввести ответ...")
+    }
+          </script>
+            </div>
+  </head>
+  <body>
+<div class="all">
+<div class="photo">
+<img id="cat" src="img/cat.gif"></img>
+</div>
+
+<div class="panel">
+  <p id="question">This cat's name is... 😳</p>
+  <p id="pass">
+    <input id="check" type=text size="20" maxlength="30" >
+    <input type=button value="Check" onclick="check()">
+  </p>
+
+</div>
+
+
+</div>
+<audio loop="loop">
+<embed src="img/cat.mp3" hidden="true"> </embed>
+</audio>
+  </body>
+</html>

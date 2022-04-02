@@ -1,0 +1,43 @@
+body{
+  background: pink;
+  background-size: cover;
+}
+
+input{
+  font-size: 20px;
+  margin-right: 10px;
+}
+.all{
+  text-align: center;
+  border-color: white;
+}
+
+}
+.photo{
+  position: static;
+}
+#cat{
+  border: 10px solid rgb(255,255,255,0.7);
+  border-radius: 60px;
+}
+.panel{
+  margin: 0;
+  font-size: 40px;
+}
+#question{
+margin-left: auto;
+margin-right: auto;
+border-radius: 30px;
+margin-bottom: 0px;
+width: 600px;
+background-color: rgb(255,255,255,0.7);
+}
+#pass{
+font-size: 0px;
+margin-left: auto;
+margin-right: auto;
+width: 500px;
+margin-top:0;
+background: rgb(255,255,255,0.7);
+border-radius: 0 0 30px 30px;
+}
